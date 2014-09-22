@@ -1,0 +1,29 @@
+<!DOCTYPE>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>datepicker</title>
+    <link rel="stylesheet" href="datepicker.css" />
+    <link rel="stylesheet" href="calendar.css" />
+    <script src="datepicker.js"></script>
+    <script src="calendar.js"></script>
+</head>
+<body>
+
+<script>
+    var dp = new widgets.datePicker();
+    dp.itemClick = function(){
+
+    }
+
+    var dp2 = new widgets.calendar();
+
+
+    document.body.appendChild(dp.dom.main.get(0));
+    document.body.appendChild(dp2.dom.main.get(0));
+
+    dp.render();
+    dp2.render();
+</script>
+</body>
+</html>
