@@ -23,19 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/demo/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="7" selection-start="416" selection-end="416" vertical-scroll-proportion="0.28639618" vertical-offset="0" max-vertical-offset="838">
+            <state line="22" column="7" selection-start="527" selection-end="527" vertical-scroll-proportion="-14.08" vertical-offset="0" max-vertical-offset="528">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="datepicker.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="datepicker.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/datepicker.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="8" selection-start="174" selection-end="199" vertical-scroll-proportion="-4.148148" vertical-offset="0" max-vertical-offset="5216">
+            <state line="29" column="23" selection-start="764" selection-end="764" vertical-scroll-proportion="0.5550239" vertical-offset="0" max-vertical-offset="6064">
               <folding />
             </state>
           </provider>
@@ -66,8 +66,8 @@
         <option value="$PROJECT_DIR$/calendar.js" />
         <option value="$PROJECT_DIR$/calendar.css" />
         <option value="$PROJECT_DIR$/css/datepicker.css" />
-        <option value="$PROJECT_DIR$/source/datepicker.js" />
         <option value="$PROJECT_DIR$/demo/test.html" />
+        <option value="$PROJECT_DIR$/source/datepicker.js" />
       </list>
     </option>
   </component>
@@ -321,16 +321,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/datepicker.js">
+    <entry file="file://$PROJECT_DIR$/demo/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="8" selection-start="174" selection-end="199" vertical-scroll-proportion="-4.148148" vertical-offset="0" max-vertical-offset="5216">
+        <state line="22" column="7" selection-start="527" selection-end="527" vertical-scroll-proportion="-14.08" vertical-offset="0" max-vertical-offset="528">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/demo/test.html">
+    <entry file="file://$PROJECT_DIR$/source/datepicker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="7" selection-start="416" selection-end="416" vertical-scroll-proportion="0.28639618" vertical-offset="0" max-vertical-offset="838">
+        <state line="29" column="23" selection-start="764" selection-end="764" vertical-scroll-proportion="0.5550239" vertical-offset="0" max-vertical-offset="6064">
           <folding />
         </state>
       </provider>

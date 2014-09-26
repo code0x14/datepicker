@@ -1,3 +1,56 @@
+Std.plugin.module("datePicker",{
+    events:"apply dateClick",
+    option:{
+        value:"",
+        editable:true,
+        format:"yyyy-MM-dd h:m:s"
+    },
+    public:{
+        value:function(value){
+            var that = this;
+            if(value === undefined){
+                return that.widget.value();
+            }
+            that.widget.value(value);
+            return that;
+        },
+        remove:function(){
+            this.datePicker.remove();
+        }
+    },
+    main:function(that,opts,widget){
+        var datePicker = that.datePicker = Std.ui("datePicker",Std.extend({
+            renderTo:"body",
+            visible:false
+        },opts));
+
+        datePicker[0].css({
+            position:"absolute"
+        });
+        datePicker.on({
+            dateClick:function(){
+                datePicker.hide();
+                that.emit("apply",that.value());
+
+                if(widget.ui === "lineEdit"){
+                    widget.value(that.value());
+                }
+            }
+        });
+        widget[0].on("click",function(e){
+            var offset = widget[0].offset();
+            datePicker[0].css({
+                top: offset.y + widget.height(),
+                left: offset.x,
+                zIndex: Std.ui.status.zIndex++
+            });
+            datePicker.show();
+
+            e.stopPropagation()
+        });
+    }
+});
+
 Std.ui.module("datePicker",{
     parent:"widget",
     events:"dateClick",

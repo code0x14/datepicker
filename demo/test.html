@@ -10,9 +10,16 @@
 <body>
 
 <script>
-    var datePicker = Std.ui("datePicker",{
+    var widget = Std.ui("widget",{
+        width:100,
+        height:50,
+        css:{
+            background:"red"
+        },
         renderTo:"body",
-        value:"2018-12-12"
+        plugins:{
+            datePicker:{}
+        }
     });
 
 </script>
