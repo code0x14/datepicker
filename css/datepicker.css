@@ -1,86 +1,84 @@
 
-
-.ui_unselstart{
-    user-select:none;
-    -moz-user-select:-moz-none;
-    -webkit-user-select: none;
-    -o-user-select: none;
-    -ms-user-select: none;
-    -khtml-user-select: none;
-}
-
-.ui.datePicker{
+.StdUI_DatePicker{
     font-family: arial,sans-serif;
     width: 231px;
     color: #494949;
     border: 1px solid #B3C4E5;
     overflow: hidden;
+    outline: none;
+    border-radius: 2px;
 }
-.ui.datePicker > .header{
+.StdUI_DatePicker > ._header{
+    height: 30px;
     width: 231px;
-    height: 26px;
     background: #1B386D;
     overflow: hidden;
 }
-.ui.datePicker > .header > .btn{
+.StdUI_DatePicker > ._header > ._value{
+    float: left;
+    width: 130px;
+    font-size: 13px;
     height: 25px;
     line-height: 25px;
+    margin-top: 3px;
+    text-align: center;
+    cursor: pointer;
+    color: white;
+}
+.StdUI_DatePicker > ._header > ._year{
+    float: left;
+    width: 40px;
+}
+.StdUI_DatePicker > ._header > input{
+    float: left;
+    font-size: 12px;
+    margin-top: 3px;
+    text-align: center;
+    padding: 4px 2px 4px 2px;
+    border: 1px solid #4AB1F5;
+}
+.StdUI_DatePicker > ._header > ._month{
+    float: left;
+    width: 30px;
+}
+.StdUI_DatePicker > ._header > ._btn{
+    float: left;
+    height: 30px;
+    line-height: 30px;
     width: 25px;
     text-align: center;
     font-weight: bold;
-    font-size: 21px;
+    font-size: 18px;
     cursor: pointer;
-    border-radius: 5px;
     color: #D6E8F9;
 }
-.ui.datePicker > .header > .btn:hover{
+.StdUI_DatePicker > ._header > ._btn:hover{
     color: #3D7BED;
 }
-.ui.datePicker > .header > .prev{
-    float: left;
-    margin-left: 4px;
+.StdUI_DatePicker > ._header > ._prevYear{
+    margin-left: 5px;
 }
-.ui.datePicker > .header > .switchBox{
-    float: left;
-    font-size: 14px;
-    height: 25px;
-    width: 75px;
-    margin-left:2px;
-    line-height: 27px;
-    text-align: center;
-    font-weight: bold;
-    cursor: pointer;
-    color: white;
-    margin-left: 50px;
+.StdUI_DatePicker > ._header > ._prevMonth{
+
 }
-.ui.datePicker > .header > .switchBox > .year{
-    float: left;
+.StdUI_DatePicker > ._header > ._nextMonth{
+
 }
-.ui.datePicker > .header > .switchBox > .year:hover{
-    color: #3D7BED;
+.StdUI_DatePicker > ._header > ._nextYear{
+    margin-right: 45px;
 }
-.ui.datePicker > .header > .switchBox > .sep{
-    float: left;
-    width: 18px;
+
+.StdUI_DatePicker > ._body{
+
 }
-.ui.datePicker > .header > .switchBox > .month{
-    float: left;
-}
-.ui.datePicker > .header > .switchBox > .month:hover{
-    color: #3D7BED;
-}
-.ui.datePicker > .header > .next{
-    float: right;
-    margin-right: 4px;
-}
-.ui.datePicker > .dayBox{
+.StdUI_DatePicker > ._body > ._dayBox{
     background: #C7D8ED;
     overflow: hidden;
     border-bottom: 1px solid #B9CFF7;
 }
-.ui.datePicker > .dayBox > .day{
+.StdUI_DatePicker > ._body > ._dayBox > ._day{
     float: left;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
     text-align: center;
     width:30px;
@@ -91,34 +89,33 @@
     cursor: default;
     background: #C7D8ED;
 }
-.ui.datePicker > .dateBox{
+.StdUI_DatePicker > ._body > ._dateBox{
 
 }
-.ui.datePicker > .dateBox > .date{
+.StdUI_DatePicker > ._body > ._dateBox > ._date{
     float: left;
     text-align: center;
-    font-size: 15px;
+    font-size: 13px;
     width:30px;
     height: 25px;
     line-height: 25px;
     margin-right: 1px;
-    border: 1px solid white;
+    border: 1px solid transparent;
     margin-top: 1px;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 100%;
 }
-.ui.datePicker > .dateBox > .date:hover{
+.StdUI_DatePicker > ._body > ._dateBox > ._date:hover{
     background: #C7D8ED;
 }
-.ui.datePicker > .dateBox > .date.selected{
+.StdUI_DatePicker > ._body > ._dateBox > ._date.selected{
     background: #3059A0;
-    border-color: #3059A0;
     color: white;
 }
-.ui.datePicker > .dateBox > .date.lastMonthDate{
+.StdUI_DatePicker > ._body > ._dateBox > ._date._lastMonthDate{
     color: #C1C1C1;
 }
-.ui.datePicker > .footer{
+.StdUI_DatePicker > ._footer{
     clear: both;
     height: 25px;
     background: #C7D8ED;
