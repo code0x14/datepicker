@@ -7,6 +7,7 @@
     overflow: hidden;
     outline: none;
     border-radius: 2px;
+    background: white;
 }
 .StdUI_DatePicker > ._header{
     height: 30px;
@@ -69,7 +70,7 @@
 }
 
 .StdUI_DatePicker > ._body{
-
+    background: white;
 }
 .StdUI_DatePicker > ._body > ._dayBox{
     background: #C7D8ED;
@@ -90,7 +91,7 @@
     background: #C7D8ED;
 }
 .StdUI_DatePicker > ._body > ._dateBox{
-
+    background: white;
 }
 .StdUI_DatePicker > ._body > ._dateBox > ._date{
     float: left;
@@ -104,6 +105,7 @@
     margin-top: 1px;
     cursor: pointer;
     border-radius: 100%;
+    background: white;
 }
 .StdUI_DatePicker > ._body > ._dateBox > ._date:hover{
     background: #C7D8ED;

@@ -9,9 +9,9 @@ Std.plugin.module("datePicker",{
         value:function(value){
             var that = this;
             if(value === undefined){
-                return that.widget.value();
+                return that.datePicker.value();
             }
-            that.widget.value(value);
+            that.datePicker.value(value);
             return that;
         },
         remove:function(){
